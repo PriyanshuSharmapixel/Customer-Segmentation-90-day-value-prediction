@@ -1,0 +1,3 @@
+Segment,Customers,MedianRecency,HistoricalSpending,Predicted90DaySpending,Actual90DaySpending,MAE,HistoricalSpendingSharePct,SuggestedAction
+Higher-value / more frequent group,1163,23.0,4281131.55,1605931.64,1969558.14,1091.7677558039552,81.89665752443659,Prioritise service and retention; review inactive customers individually
+Lower-value / less frequent group,2154,114.0,946348.642,253669.051,572499.041,280.6628922934076,18.103342475563416,Test a targeted reactivation campaign against a control group

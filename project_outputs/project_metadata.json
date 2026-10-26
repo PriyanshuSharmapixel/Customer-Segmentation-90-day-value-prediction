@@ -1,0 +1,23 @@
+{
+  "selected_method": "Previous 90-day spending baseline",
+  "baseline_rule": "Predict spending equal to the previous 90 days",
+  "baseline_mae_gbp": 565.0508803135364,
+  "updated_xgboost_mae_gbp": 576.4037659369657,
+  "prediction_features": [
+    "Recency",
+    "Frequency",
+    "Monetary",
+    "SpendLast90Days"
+  ],
+  "training_cutoff": "2011-06-01 00:00:00",
+  "evaluation_cutoff": "2011-09-01 00:00:00",
+  "evaluation_end_exclusive": "2011-11-30 00:00:00",
+  "target": "90-day purchase spending excluding refunds",
+  "limitations": [
+    "September results were inspected during model development; this is an exploratory comparison.",
+    "Only customers known before each cutoff are included.",
+    "Exact duplicate rows were removed as a cleaning assumption.",
+    "Returns are retained separately but excluded from spending.",
+    "Segment actions are proposals, not measured campaign effects."
+  ]
+}
